@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Heater" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,70 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X17-Zm-V5u">
+                                <rect key="frame" x="276" y="284" width="51" height="31"/>
+                                <color key="onTintColor" red="1" green="0.0" blue="0.4702892642" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="0.71556637219999997" green="0.71556637219999997" blue="0.71556637219999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="SwitchAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="6Me-Qj-T0e"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOI-yB-cxI">
+                                <rect key="frame" x="20" y="214" width="560" height="37"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hullo Woolamai">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="24" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qp2-hz-BwW">
+                                <rect key="frame" x="20" y="394" width="560" height="41"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="remote message">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="18" name="CourierNewPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hz0-30-bW0">
+                                <rect key="frame" x="286" y="481" width="46" height="30"/>
+                                <state key="normal" title="X"/>
+                                <connections>
+                                    <action selector="XAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yno-8u-At4"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X17-Zm-V5u" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Dh9-tQ-DtK"/>
+                            <constraint firstItem="aOI-yB-cxI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EYb-ff-3NY"/>
+                            <constraint firstItem="qp2-hz-BwW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LLT-9y-4eU"/>
+                            <constraint firstItem="qp2-hz-BwW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="125" id="lUv-TW-75w"/>
+                            <constraint firstItem="X17-Zm-V5u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pLV-t2-XfL"/>
+                            <constraint firstItem="Hz0-30-bW0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tVQ-wG-Jrb"/>
+                            <constraint firstItem="Hz0-30-bW0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="175" id="vbQ-gw-Xtz"/>
+                            <constraint firstItem="aOI-yB-cxI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="wiP-GL-x4v"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="HulloOutlet" destination="aOI-yB-cxI" id="q2H-AE-rDV"/>
+                        <outlet property="MessageOutlet" destination="qp2-hz-BwW" id="VrG-37-vs2"/>
+                        <outlet property="SwitchOutlet" destination="X17-Zm-V5u" id="pYQ-oK-063"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="311" y="315"/>
         </scene>
     </scenes>
 </document>

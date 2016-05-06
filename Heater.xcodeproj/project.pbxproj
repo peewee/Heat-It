@@ -7,21 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D02E60A1CD816F60049B95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D02E6081CD816F60049B95D /* Main.storyboard */; };
 		3D75E5411CD45589009F757D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75E5401CD45589009F757D /* AppDelegate.swift */; };
 		3D75E5431CD45589009F757D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75E5421CD45589009F757D /* ViewController.swift */; };
-		3D75E5461CD45589009F757D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D75E5441CD45589009F757D /* Main.storyboard */; };
 		3D75E5481CD4558A009F757D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D75E5471CD45589009F757D /* Assets.xcassets */; };
 		3D75E54B1CD4558A009F757D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D75E5491CD4558A009F757D /* LaunchScreen.storyboard */; };
+		3D75E5551CD456BE009F757D /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D75E5521CD456BE009F757D /* AFNetworking.framework */; };
+		3D75E5561CD456BE009F757D /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D75E5521CD456BE009F757D /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D75E5571CD456BE009F757D /* ParticleDeviceSetupLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D75E5531CD456BE009F757D /* ParticleDeviceSetupLibrary.framework */; };
+		3D75E5581CD456BE009F757D /* ParticleDeviceSetupLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D75E5531CD456BE009F757D /* ParticleDeviceSetupLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D75E5591CD456BE009F757D /* ParticleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D75E5541CD456BE009F757D /* ParticleSDK.framework */; };
+		3D75E55A1CD456BE009F757D /* ParticleSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D75E5541CD456BE009F757D /* ParticleSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3D75E55B1CD456BE009F757D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D75E55A1CD456BE009F757D /* ParticleSDK.framework in Embed Frameworks */,
+				3D75E5581CD456BE009F757D /* ParticleDeviceSetupLibrary.framework in Embed Frameworks */,
+				3D75E5561CD456BE009F757D /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3D02E6091CD816F60049B95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D75E53D1CD45589009F757D /* Heater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D75E5401CD45589009F757D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D75E5421CD45589009F757D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D75E5451CD45589009F757D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D75E5471CD45589009F757D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D75E54A1CD4558A009F757D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D75E54C1CD4558A009F757D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D75E5521CD456BE009F757D /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		3D75E5531CD456BE009F757D /* ParticleDeviceSetupLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParticleDeviceSetupLibrary.framework; path = Carthage/Build/iOS/ParticleDeviceSetupLibrary.framework; sourceTree = "<group>"; };
+		3D75E5541CD456BE009F757D /* ParticleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParticleSDK.framework; path = Carthage/Build/iOS/ParticleSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D75E5591CD456BE009F757D /* ParticleSDK.framework in Frameworks */,
+				3D75E5571CD456BE009F757D /* ParticleDeviceSetupLibrary.framework in Frameworks */,
+				3D75E5551CD456BE009F757D /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +66,9 @@
 		3D75E5341CD45589009F757D = {
 			isa = PBXGroup;
 			children = (
+				3D75E5521CD456BE009F757D /* AFNetworking.framework */,
+				3D75E5531CD456BE009F757D /* ParticleDeviceSetupLibrary.framework */,
+				3D75E5541CD456BE009F757D /* ParticleSDK.framework */,
 				3D75E53F1CD45589009F757D /* Heater */,
 				3D75E53E1CD45589009F757D /* Products */,
 			);
@@ -56,7 +87,7 @@
 			children = (
 				3D75E5401CD45589009F757D /* AppDelegate.swift */,
 				3D75E5421CD45589009F757D /* ViewController.swift */,
-				3D75E5441CD45589009F757D /* Main.storyboard */,
+				3D02E6081CD816F60049B95D /* Main.storyboard */,
 				3D75E5471CD45589009F757D /* Assets.xcassets */,
 				3D75E5491CD4558A009F757D /* LaunchScreen.storyboard */,
 				3D75E54C1CD4558A009F757D /* Info.plist */,
@@ -74,6 +105,7 @@
 				3D75E5391CD45589009F757D /* Sources */,
 				3D75E53A1CD45589009F757D /* Frameworks */,
 				3D75E53B1CD45589009F757D /* Resources */,
+				3D75E55B1CD456BE009F757D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +128,7 @@
 				TargetAttributes = {
 					3D75E53C1CD45589009F757D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 83GKP693FA;
 					};
 				};
 			};
@@ -122,9 +155,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D02E60A1CD816F60049B95D /* Main.storyboard in Resources */,
 				3D75E54B1CD4558A009F757D /* LaunchScreen.storyboard in Resources */,
 				3D75E5481CD4558A009F757D /* Assets.xcassets in Resources */,
-				3D75E5461CD45589009F757D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,10 +176,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3D75E5441CD45589009F757D /* Main.storyboard */ = {
+		3D02E6081CD816F60049B95D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3D75E5451CD45589009F757D /* Base */,
+				3D02E6091CD816F60049B95D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -251,6 +284,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Heater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.woolybeach.Heater;
@@ -262,6 +300,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Heater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.woolybeach.Heater;
@@ -288,6 +331,7 @@
 				3D75E5511CD4558A009F757D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

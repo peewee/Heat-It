@@ -1,0 +1,1977 @@
+BCSymbolMap Version: 1.0
+-[SparkSession initWithNewSession:]
+-[SparkSession initWithToken:]
+-[SparkSession storeSessionInKeychainAndSetExpiryTimer]
+-[SparkSession initWithToken:andExpiryDate:]
+-[SparkSession initWithToken:withExpiryDate:withRefreshToken:]
+-[SparkSession initWithSavedSession]
+-[SparkSession accessToken]
+-[SparkSession removeSession]
+-[SparkSession accessTokenExpired:]
+-[SparkSession dealloc]
+-[SparkSession username]
+-[SparkSession setUsername:]
+-[SparkSession refreshToken]
+-[SparkSession setRefreshToken:]
+-[SparkSession delegate]
+-[SparkSession setDelegate:]
+-[SparkSession expiryDate]
+-[SparkSession setExpiryDate:]
+-[SparkSession expiryTimer]
+-[SparkSession setExpiryTimer:]
+-[SparkSession setAccessToken:]
+-[SparkSession .cxx_destruct]
+.str
+_unnamed_cfstring_
+.str.1
+_unnamed_cfstring_.2
+.str.3
+_unnamed_cfstring_.4
+.str.5
+_unnamed_cfstring_.6
+.str.7
+_unnamed_cfstring_.8
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+.str.9
+_unnamed_cfstring_.10
+OBJC_METH_VAR_NAME_.11
+OBJC_SELECTOR_REFERENCES_.12
+OBJC_METH_VAR_NAME_.13
+OBJC_SELECTOR_REFERENCES_.14
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_METH_VAR_NAME_.15
+OBJC_SELECTOR_REFERENCES_.16
+OBJC_METH_VAR_NAME_.17
+OBJC_SELECTOR_REFERENCES_.18
+OBJC_METH_VAR_NAME_.19
+OBJC_SELECTOR_REFERENCES_.20
+OBJC_METH_VAR_NAME_.21
+OBJC_SELECTOR_REFERENCES_.22
+OBJC_METH_VAR_NAME_.23
+OBJC_SELECTOR_REFERENCES_.24
+.str.25
+_unnamed_cfstring_.26
+OBJC_METH_VAR_NAME_.27
+OBJC_SELECTOR_REFERENCES_.28
+OBJC_METH_VAR_NAME_.29
+OBJC_SELECTOR_REFERENCES_.30
+.str.31
+_unnamed_cfstring_.32
+OBJC_METH_VAR_NAME_.33
+OBJC_SELECTOR_REFERENCES_.34
+OBJC_METH_VAR_NAME_.35
+OBJC_SELECTOR_REFERENCES_.36
+.str.37
+_unnamed_cfstring_.38
+OBJC_METH_VAR_NAME_.39
+OBJC_SELECTOR_REFERENCES_.40
+.str.41
+_unnamed_cfstring_.42
+.str.43
+_unnamed_cfstring_.44
+OBJC_METH_VAR_NAME_.45
+OBJC_SELECTOR_REFERENCES_.46
+OBJC_METH_VAR_NAME_.47
+OBJC_SELECTOR_REFERENCES_.48
+OBJC_METH_VAR_NAME_.49
+OBJC_SELECTOR_REFERENCES_.50
+OBJC_METH_VAR_NAME_.51
+OBJC_SELECTOR_REFERENCES_.52
+OBJC_CLASSLIST_REFERENCES_$_.53
+OBJC_METH_VAR_NAME_.54
+OBJC_SELECTOR_REFERENCES_.55
+OBJC_METH_VAR_NAME_.56
+OBJC_SELECTOR_REFERENCES_.57
+OBJC_METH_VAR_NAME_.58
+OBJC_SELECTOR_REFERENCES_.59
+OBJC_CLASSLIST_REFERENCES_$_.60
+OBJC_METH_VAR_NAME_.61
+OBJC_SELECTOR_REFERENCES_.62
+OBJC_METH_VAR_NAME_.63
+OBJC_SELECTOR_REFERENCES_.64
+OBJC_METH_VAR_NAME_.65
+OBJC_SELECTOR_REFERENCES_.66
+OBJC_CLASSLIST_REFERENCES_$_.67
+OBJC_METH_VAR_NAME_.68
+OBJC_SELECTOR_REFERENCES_.69
+OBJC_METH_VAR_NAME_.70
+OBJC_SELECTOR_REFERENCES_.71
+OBJC_METH_VAR_NAME_.72
+OBJC_SELECTOR_REFERENCES_.73
+OBJC_CLASSLIST_REFERENCES_$_.74
+OBJC_METH_VAR_NAME_.75
+OBJC_SELECTOR_REFERENCES_.76
+OBJC_CLASSLIST_REFERENCES_$_.77
+OBJC_METH_VAR_NAME_.78
+OBJC_SELECTOR_REFERENCES_.79
+OBJC_METH_VAR_NAME_.80
+OBJC_SELECTOR_REFERENCES_.81
+OBJC_METH_VAR_NAME_.82
+OBJC_SELECTOR_REFERENCES_.83
+OBJC_METH_VAR_NAME_.84
+OBJC_SELECTOR_REFERENCES_.85
+OBJC_CLASSLIST_REFERENCES_$_.86
+OBJC_METH_VAR_NAME_.87
+OBJC_SELECTOR_REFERENCES_.88
+OBJC_METH_VAR_NAME_.89
+OBJC_SELECTOR_REFERENCES_.90
+OBJC_IVAR_$_SparkSession._accessToken
+OBJC_METH_VAR_NAME_.91
+OBJC_SELECTOR_REFERENCES_.92
+OBJC_METH_VAR_NAME_.93
+OBJC_SELECTOR_REFERENCES_.94
+OBJC_METH_VAR_NAME_.95
+OBJC_SELECTOR_REFERENCES_.96
+OBJC_METH_VAR_NAME_.97
+OBJC_SELECTOR_REFERENCES_.98
+OBJC_METH_VAR_NAME_.99
+OBJC_SELECTOR_REFERENCES_.100
+OBJC_METH_VAR_NAME_.101
+OBJC_SELECTOR_REFERENCES_.102
+OBJC_IVAR_$_SparkSession._username
+OBJC_IVAR_$_SparkSession._refreshToken
+OBJC_IVAR_$_SparkSession._delegate
+OBJC_IVAR_$_SparkSession._expiryDate
+OBJC_IVAR_$_SparkSession._expiryTimer
+OBJC_CLASS_NAME_
+l_OBJC_METACLASS_RO_$_SparkSession
+OBJC_CLASS_NAME_.103
+OBJC_METH_VAR_NAME_.104
+OBJC_METH_VAR_TYPE_
+OBJC_METH_VAR_NAME_.105
+OBJC_METH_VAR_TYPE_.106
+OBJC_METH_VAR_NAME_.107
+OBJC_METH_VAR_TYPE_.108
+OBJC_METH_VAR_NAME_.109
+OBJC_METH_VAR_TYPE_.110
+OBJC_METH_VAR_NAME_.111
+OBJC_METH_VAR_TYPE_.112
+OBJC_METH_VAR_TYPE_.113
+OBJC_METH_VAR_NAME_.114
+OBJC_METH_VAR_NAME_.115
+l_OBJC_$_INSTANCE_METHODS_SparkSession
+OBJC_METH_VAR_NAME_.116
+OBJC_METH_VAR_TYPE_.117
+OBJC_METH_VAR_NAME_.118
+OBJC_METH_VAR_NAME_.119
+OBJC_METH_VAR_TYPE_.120
+OBJC_METH_VAR_NAME_.121
+OBJC_METH_VAR_TYPE_.122
+OBJC_METH_VAR_NAME_.123
+OBJC_METH_VAR_TYPE_.124
+OBJC_METH_VAR_NAME_.125
+l_OBJC_$_INSTANCE_VARIABLES_SparkSession
+OBJC_CLASS_NAME_.126
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_.127
+OBJC_PROP_NAME_ATTR_.128
+OBJC_PROP_NAME_ATTR_.129
+OBJC_PROP_NAME_ATTR_.130
+OBJC_PROP_NAME_ATTR_.131
+OBJC_PROP_NAME_ATTR_.132
+OBJC_PROP_NAME_ATTR_.133
+OBJC_PROP_NAME_ATTR_.134
+OBJC_PROP_NAME_ATTR_.135
+OBJC_PROP_NAME_ATTR_.136
+OBJC_PROP_NAME_ATTR_.137
+l_OBJC_$_PROP_LIST_SparkSession
+l_OBJC_CLASS_RO_$_SparkSession
+OBJC_LABEL_CLASS_$
+Apple LLVM version 7.3.0 (clang-703.0.29)
+-[SparkSession .cxx_destruct]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/SDK/SparkSession.m
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Example/ParticleSDK
+-[SparkSession setAccessToken:]
+-[SparkSession setExpiryTimer:]
+-[SparkSession expiryTimer]
+-[SparkSession setExpiryDate:]
+-[SparkSession expiryDate]
+-[SparkSession setDelegate:]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/SDK/SparkSession.h
+-[SparkSession delegate]
+-[SparkSession setRefreshToken:]
+-[SparkSession refreshToken]
+-[SparkSession setUsername:]
+-[SparkSession username]
+-[SparkSession dealloc]
+-[SparkSession accessTokenExpired:]
+-[SparkSession removeSession]
+-[SparkSession accessToken]
+-[SparkSession initWithSavedSession]
+-[SparkSession initWithToken:withExpiryDate:withRefreshToken:]
+-[SparkSession initWithToken:andExpiryDate:]
+-[SparkSession storeSessionInKeychainAndSetExpiryTimer]
+-[SparkSession initWithToken:]
+-[SparkSession initWithNewSession:]
+-[SparkEvent initWithEventDict:]
+-[SparkEvent description]
+-[SparkEvent deviceID]
+-[SparkEvent setDeviceID:]
+-[SparkEvent data]
+-[SparkEvent setData:]
+-[SparkEvent event]
+-[SparkEvent setEvent:]
+-[SparkEvent time]
+-[SparkEvent setTime:]
+-[SparkEvent ttl]
+-[SparkEvent setTtl:]
+-[SparkEvent .cxx_destruct]
+OBJC_METH_VAR_NAME_.1
+OBJC_SELECTOR_REFERENCES_.2
+OBJC_METH_VAR_NAME_.3
+OBJC_SELECTOR_REFERENCES_.4
+OBJC_METH_VAR_NAME_.7
+OBJC_SELECTOR_REFERENCES_.8
+.str.13
+_unnamed_cfstring_.14
+.str.19
+_unnamed_cfstring_.20
+.str.23
+_unnamed_cfstring_.24
+OBJC_METH_VAR_NAME_.25
+OBJC_SELECTOR_REFERENCES_.26
+OBJC_CLASSLIST_REFERENCES_$_.27
+.str.28
+_unnamed_cfstring_.29
+OBJC_METH_VAR_NAME_.30
+OBJC_SELECTOR_REFERENCES_.31
+OBJC_METH_VAR_NAME_.32
+OBJC_SELECTOR_REFERENCES_.33
+OBJC_METH_VAR_NAME_.34
+OBJC_SELECTOR_REFERENCES_.35
+OBJC_METH_VAR_NAME_.36
+OBJC_SELECTOR_REFERENCES_.37
+OBJC_CLASSLIST_REFERENCES_$_.38
+.str.39
+_unnamed_cfstring_.40
+OBJC_METH_VAR_NAME_.41
+OBJC_SELECTOR_REFERENCES_.42
+OBJC_METH_VAR_NAME_.43
+OBJC_SELECTOR_REFERENCES_.44
+OBJC_IVAR_$_SparkEvent._deviceID
+OBJC_IVAR_$_SparkEvent._data
+OBJC_IVAR_$_SparkEvent._event
+OBJC_IVAR_$_SparkEvent._time
+OBJC_IVAR_$_SparkEvent._ttl
+l_OBJC_METACLASS_RO_$_SparkEvent
+OBJC_CLASS_NAME_.53
+OBJC_METH_VAR_NAME_.55
+OBJC_METH_VAR_TYPE_.56
+OBJC_METH_VAR_NAME_.57
+OBJC_METH_VAR_TYPE_.58
+OBJC_METH_VAR_TYPE_.59
+OBJC_METH_VAR_TYPE_.60
+OBJC_METH_VAR_TYPE_.61
+l_OBJC_$_INSTANCE_METHODS_SparkEvent
+OBJC_METH_VAR_NAME_.62
+OBJC_METH_VAR_TYPE_.63
+OBJC_METH_VAR_NAME_.64
+OBJC_METH_VAR_NAME_.66
+OBJC_METH_VAR_TYPE_.67
+OBJC_METH_VAR_TYPE_.69
+l_OBJC_$_INSTANCE_VARIABLES_SparkEvent
+OBJC_PROP_NAME_ATTR_.70
+OBJC_PROP_NAME_ATTR_.71
+OBJC_PROP_NAME_ATTR_.72
+OBJC_PROP_NAME_ATTR_.73
+OBJC_PROP_NAME_ATTR_.74
+OBJC_PROP_NAME_ATTR_.75
+OBJC_PROP_NAME_ATTR_.76
+OBJC_PROP_NAME_ATTR_.77
+OBJC_PROP_NAME_ATTR_.78
+l_OBJC_$_PROP_LIST_SparkEvent
+l_OBJC_CLASS_RO_$_SparkEvent
+-[SparkEvent .cxx_destruct]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/SDK/SparkEvent.m
+-[SparkEvent setTtl:]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/SDK/SparkEvent.h
+-[SparkEvent ttl]
+-[SparkEvent setTime:]
+-[SparkEvent time]
+-[SparkEvent setEvent:]
+-[SparkEvent event]
+-[SparkEvent setData:]
+-[SparkEvent data]
+-[SparkEvent setDeviceID:]
+-[SparkEvent deviceID]
+-[SparkEvent description]
+-[SparkEvent initWithEventDict:]
+-[SparkDevice initWithParams:]
+-[SparkDevice refresh:]
+__23-[SparkDevice refresh:]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
+-[SparkDevice setName:]
+-[SparkDevice getVariable:completion:]
+__38-[SparkDevice getVariable:completion:]_block_invoke
+__copy_helper_block_.116
+__destroy_helper_block_.117
+__38-[SparkDevice getVariable:completion:]_block_invoke.120
+__copy_helper_block_.121
+__destroy_helper_block_.122
+-[SparkDevice callFunction:withArguments:completion:]
+__53-[SparkDevice callFunction:withArguments:completion:]_block_invoke
+__copy_helper_block_.149
+__destroy_helper_block_.150
+__53-[SparkDevice callFunction:withArguments:completion:]_block_invoke.152
+__copy_helper_block_.153
+__destroy_helper_block_.154
+-[SparkDevice unclaim:]
+__23-[SparkDevice unclaim:]_block_invoke
+__copy_helper_block_.164
+__destroy_helper_block_.165
+__23-[SparkDevice unclaim:]_block_invoke.167
+__copy_helper_block_.168
+__destroy_helper_block_.169
+-[SparkDevice rename:completion:]
+__33-[SparkDevice rename:completion:]_block_invoke
+__copy_helper_block_.173
+__destroy_helper_block_.174
+__33-[SparkDevice rename:completion:]_block_invoke.176
+__copy_helper_block_.177
+__destroy_helper_block_.178
+-[SparkDevice defaultParams]
+-[SparkDevice setAuthHeaderWithAccessToken]
+-[SparkDevice makeErrorWithDescription:code:]
+-[SparkDevice description]
+-[SparkDevice flashKnownApp:completion:]
+__40-[SparkDevice flashKnownApp:completion:]_block_invoke
+__copy_helper_block_.237
+__destroy_helper_block_.238
+__40-[SparkDevice flashKnownApp:completion:]_block_invoke.240
+__copy_helper_block_.241
+__destroy_helper_block_.242
+-[SparkDevice flashFiles:completion:]
+__37-[SparkDevice flashFiles:completion:]_block_invoke
+__copy_helper_block_.258
+__destroy_helper_block_.259
+__37-[SparkDevice flashFiles:completion:]_block_invoke.264
+__copy_helper_block_.265
+__destroy_helper_block_.266
+-[SparkDevice flashingTimeLeftTimerFunc:]
+-[SparkDevice isFlashing]
+-[SparkDevice setIsFlashing:]
+-[SparkDevice subscribeToEventsWithPrefix:handler:]
+-[SparkDevice unsubscribeFromEventWithID:]
+-[SparkDevice id]
+-[SparkDevice setId:]
+-[SparkDevice name]
+-[SparkDevice connected]
+-[SparkDevice setConnected:]
+-[SparkDevice functions]
+-[SparkDevice setFunctions:]
+-[SparkDevice variables]
+-[SparkDevice setVariables:]
+-[SparkDevice lastApp]
+-[SparkDevice lastHeard]
+-[SparkDevice version]
+-[SparkDevice setVersion:]
+-[SparkDevice requiresUpdate]
+-[SparkDevice setRequiresUpdate:]
+-[SparkDevice type]
+-[SparkDevice manager]
+-[SparkDevice setManager:]
+-[SparkDevice flashingTimeLeft]
+-[SparkDevice setFlashingTimeLeft:]
+-[SparkDevice flashingTimer]
+-[SparkDevice setFlashingTimer:]
+-[SparkDevice baseURL]
+-[SparkDevice setBaseURL:]
+-[SparkDevice .cxx_destruct]
+OBJC_IVAR_$_SparkDevice._baseURL
+OBJC_IVAR_$_SparkDevice._name
+OBJC_METH_VAR_NAME_.5
+OBJC_SELECTOR_REFERENCES_.6
+OBJC_CLASSLIST_REFERENCES_$_.7
+OBJC_METH_VAR_NAME_.8
+OBJC_SELECTOR_REFERENCES_.9
+OBJC_METH_VAR_NAME_.10
+OBJC_SELECTOR_REFERENCES_.11
+.str.12
+_unnamed_cfstring_.13
+OBJC_METH_VAR_NAME_.14
+OBJC_SELECTOR_REFERENCES_.15
+OBJC_METH_VAR_NAME_.16
+OBJC_SELECTOR_REFERENCES_.17
+.str.18
+_unnamed_cfstring_.19
+OBJC_CLASSLIST_REFERENCES_$_.20
+OBJC_METH_VAR_NAME_.28
+OBJC_SELECTOR_REFERENCES_.29
+.str.32
+_unnamed_cfstring_.33
+OBJC_IVAR_$_SparkDevice._id
+OBJC_IVAR_$_SparkDevice._type
+.str.34
+_unnamed_cfstring_.35
+OBJC_CLASSLIST_REFERENCES_$_.36
+OBJC_METH_VAR_NAME_.37
+OBJC_SELECTOR_REFERENCES_.38
+OBJC_IVAR_$_SparkDevice._lastApp
+OBJC_CLASSLIST_REFERENCES_$_.43
+OBJC_METH_VAR_NAME_.44
+OBJC_SELECTOR_REFERENCES_.45
+.str.46
+_unnamed_cfstring_.47
+OBJC_METH_VAR_NAME_.48
+OBJC_SELECTOR_REFERENCES_.49
+OBJC_CLASSLIST_REFERENCES_$_.50
+.str.51
+_unnamed_cfstring_.52
+OBJC_METH_VAR_NAME_.53
+OBJC_SELECTOR_REFERENCES_.54
+OBJC_SELECTOR_REFERENCES_.56
+OBJC_SELECTOR_REFERENCES_.58
+OBJC_IVAR_$_SparkDevice._lastHeard
+.str.59
+_unnamed_cfstring_.60
+OBJC_CLASSLIST_REFERENCES_$_.61
+OBJC_SELECTOR_REFERENCES_.63
+OBJC_SELECTOR_REFERENCES_.65
+OBJC_SELECTOR_REFERENCES_.67
+OBJC_CLASSLIST_REFERENCES_$_.70
+OBJC_METH_VAR_NAME_.71
+OBJC_SELECTOR_REFERENCES_.72
+OBJC_METH_VAR_NAME_.73
+OBJC_SELECTOR_REFERENCES_.74
+OBJC_CLASSLIST_REFERENCES_$_.75
+OBJC_METH_VAR_NAME_.76
+OBJC_SELECTOR_REFERENCES_.77
+OBJC_CLASSLIST_REFERENCES_$_.80
+OBJC_METH_VAR_NAME_.81
+OBJC_SELECTOR_REFERENCES_.82
+OBJC_METH_VAR_NAME_.83
+OBJC_SELECTOR_REFERENCES_.84
+OBJC_METH_VAR_NAME_.85
+OBJC_SELECTOR_REFERENCES_.86
+.str.93
+__block_descriptor_tmp
+OBJC_METH_VAR_NAME_.94
+OBJC_SELECTOR_REFERENCES_.95
+OBJC_METH_VAR_NAME_.96
+OBJC_SELECTOR_REFERENCES_.97
+.str.98
+_unnamed_cfstring_.99
+OBJC_METH_VAR_NAME_.100
+OBJC_SELECTOR_REFERENCES_.101
+OBJC_METH_VAR_NAME_.102
+OBJC_SELECTOR_REFERENCES_.103
+OBJC_SELECTOR_REFERENCES_.105
+OBJC_METH_VAR_NAME_.106
+OBJC_SELECTOR_REFERENCES_.107
+.str.108
+_unnamed_cfstring_.109
+.str.110
+_unnamed_cfstring_.111
+OBJC_METH_VAR_NAME_.112
+OBJC_SELECTOR_REFERENCES_.113
+.str.114
+_unnamed_cfstring_.115
+.str.118
+__block_descriptor_tmp.119
+.str.123
+__block_descriptor_tmp.124
+OBJC_SELECTOR_REFERENCES_.126
+OBJC_CLASSLIST_REFERENCES_$_.127
+OBJC_METH_VAR_NAME_.128
+OBJC_SELECTOR_REFERENCES_.129
+OBJC_CLASSLIST_REFERENCES_$_.130
+OBJC_METH_VAR_NAME_.131
+OBJC_SELECTOR_REFERENCES_.132
+OBJC_METH_VAR_NAME_.133
+OBJC_SELECTOR_REFERENCES_.134
+.str.135
+_unnamed_cfstring_.136
+OBJC_METH_VAR_NAME_.137
+OBJC_SELECTOR_REFERENCES_.138
+OBJC_METH_VAR_NAME_.139
+OBJC_SELECTOR_REFERENCES_.140
+.str.141
+_unnamed_cfstring_.142
+.str.143
+_unnamed_cfstring_.144
+OBJC_METH_VAR_NAME_.145
+OBJC_SELECTOR_REFERENCES_.146
+.str.147
+_unnamed_cfstring_.148
+__block_descriptor_tmp.151
+__block_descriptor_tmp.155
+OBJC_METH_VAR_NAME_.156
+OBJC_SELECTOR_REFERENCES_.157
+.str.158
+_unnamed_cfstring_.159
+.str.160
+_unnamed_cfstring_.161
+.str.162
+_unnamed_cfstring_.163
+__block_descriptor_tmp.166
+__block_descriptor_tmp.170
+OBJC_METH_VAR_NAME_.171
+OBJC_SELECTOR_REFERENCES_.172
+__block_descriptor_tmp.175
+__block_descriptor_tmp.179
+OBJC_METH_VAR_NAME_.180
+OBJC_SELECTOR_REFERENCES_.181
+OBJC_METH_VAR_NAME_.182
+OBJC_SELECTOR_REFERENCES_.183
+.str.184
+_unnamed_cfstring_.185
+OBJC_METH_VAR_NAME_.186
+OBJC_SELECTOR_REFERENCES_.187
+.str.188
+_unnamed_cfstring_.189
+OBJC_METH_VAR_NAME_.190
+OBJC_SELECTOR_REFERENCES_.191
+.str.192
+_unnamed_cfstring_.193
+OBJC_METH_VAR_NAME_.194
+OBJC_SELECTOR_REFERENCES_.195
+OBJC_METH_VAR_NAME_.196
+OBJC_SELECTOR_REFERENCES_.197
+OBJC_CLASSLIST_REFERENCES_$_.198
+.str.199
+_unnamed_cfstring_.200
+OBJC_METH_VAR_NAME_.201
+OBJC_SELECTOR_REFERENCES_.202
+.str.203
+_unnamed_cfstring_.204
+OBJC_METH_VAR_NAME_.205
+OBJC_SELECTOR_REFERENCES_.206
+.str.207
+_unnamed_cfstring_.208
+.str.209
+_unnamed_cfstring_.210
+OBJC_METH_VAR_NAME_.211
+OBJC_SELECTOR_REFERENCES_.212
+OBJC_METH_VAR_NAME_.213
+OBJC_SELECTOR_REFERENCES_.214
+.str.215
+_unnamed_cfstring_.216
+.str.217
+_unnamed_cfstring_.218
+OBJC_METH_VAR_NAME_.219
+OBJC_SELECTOR_REFERENCES_.220
+OBJC_METH_VAR_NAME_.221
+OBJC_SELECTOR_REFERENCES_.222
+OBJC_METH_VAR_NAME_.223
+OBJC_SELECTOR_REFERENCES_.224
+OBJC_METH_VAR_NAME_.225
+OBJC_SELECTOR_REFERENCES_.226
+OBJC_METH_VAR_NAME_.227
+OBJC_SELECTOR_REFERENCES_.228
+OBJC_METH_VAR_NAME_.229
+OBJC_SELECTOR_REFERENCES_.230
+.str.231
+_unnamed_cfstring_.232
+.str.233
+_unnamed_cfstring_.234
+.str.235
+_unnamed_cfstring_.236
+__block_descriptor_tmp.239
+__block_descriptor_tmp.243
+.str.244
+_unnamed_cfstring_.245
+.str.246
+_unnamed_cfstring_.247
+.str.248
+_unnamed_cfstring_.249
+OBJC_METH_VAR_NAME_.250
+OBJC_SELECTOR_REFERENCES_.251
+.str.252
+_unnamed_cfstring_.253
+.str.254
+_unnamed_cfstring_.255
+OBJC_METH_VAR_NAME_.256
+OBJC_SELECTOR_REFERENCES_.257
+.str.260
+__block_descriptor_tmp.261
+OBJC_METH_VAR_NAME_.262
+OBJC_SELECTOR_REFERENCES_.263
+.str.267
+__block_descriptor_tmp.268
+OBJC_METH_VAR_NAME_.269
+OBJC_SELECTOR_REFERENCES_.270
+OBJC_METH_VAR_NAME_.271
+OBJC_SELECTOR_REFERENCES_.272
+OBJC_METH_VAR_NAME_.273
+OBJC_SELECTOR_REFERENCES_.274
+OBJC_METH_VAR_NAME_.275
+OBJC_SELECTOR_REFERENCES_.276
+OBJC_CLASSLIST_REFERENCES_$_.277
+OBJC_METH_VAR_NAME_.278
+OBJC_SELECTOR_REFERENCES_.279
+OBJC_METH_VAR_NAME_.280
+OBJC_SELECTOR_REFERENCES_.281
+OBJC_METH_VAR_NAME_.282
+OBJC_SELECTOR_REFERENCES_.283
+OBJC_METH_VAR_NAME_.284
+OBJC_SELECTOR_REFERENCES_.285
+OBJC_METH_VAR_NAME_.286
+OBJC_SELECTOR_REFERENCES_.287
+OBJC_IVAR_$_SparkDevice._connected
+OBJC_IVAR_$_SparkDevice._functions
+OBJC_IVAR_$_SparkDevice._variables
+OBJC_IVAR_$_SparkDevice._version
+OBJC_IVAR_$_SparkDevice._requiresUpdate
+OBJC_IVAR_$_SparkDevice._manager
+OBJC_IVAR_$_SparkDevice._flashingTimeLeft
+OBJC_IVAR_$_SparkDevice._flashingTimer
+l_OBJC_METACLASS_RO_$_SparkDevice
+OBJC_CLASS_NAME_.288
+OBJC_METH_VAR_NAME_.289
+OBJC_METH_VAR_NAME_.290
+OBJC_METH_VAR_TYPE_.291
+OBJC_METH_VAR_NAME_.292
+OBJC_METH_VAR_TYPE_.293
+OBJC_METH_VAR_NAME_.294
+OBJC_METH_VAR_TYPE_.295
+OBJC_METH_VAR_NAME_.296
+OBJC_METH_VAR_TYPE_.297
+OBJC_METH_VAR_NAME_.298
+OBJC_METH_VAR_NAME_.299
+OBJC_METH_VAR_TYPE_.300
+OBJC_METH_VAR_TYPE_.301
+OBJC_METH_VAR_TYPE_.302
+OBJC_METH_VAR_NAME_.303
+OBJC_METH_VAR_NAME_.304
+OBJC_METH_VAR_NAME_.305
+OBJC_METH_VAR_TYPE_.306
+OBJC_METH_VAR_NAME_.307
+OBJC_METH_VAR_TYPE_.308
+OBJC_METH_VAR_NAME_.309
+OBJC_METH_VAR_NAME_.310
+OBJC_METH_VAR_NAME_.311
+OBJC_METH_VAR_NAME_.312
+OBJC_METH_VAR_TYPE_.313
+OBJC_METH_VAR_TYPE_.314
+OBJC_METH_VAR_NAME_.315
+OBJC_METH_VAR_NAME_.316
+l_OBJC_$_INSTANCE_METHODS_SparkDevice
+OBJC_METH_VAR_NAME_.317
+OBJC_METH_VAR_TYPE_.318
+OBJC_METH_VAR_NAME_.319
+OBJC_METH_VAR_NAME_.320
+OBJC_METH_VAR_TYPE_.321
+OBJC_METH_VAR_NAME_.322
+OBJC_METH_VAR_NAME_.323
+OBJC_METH_VAR_TYPE_.324
+OBJC_METH_VAR_NAME_.325
+OBJC_METH_VAR_TYPE_.326
+OBJC_METH_VAR_NAME_.327
+OBJC_METH_VAR_NAME_.328
+OBJC_METH_VAR_TYPE_.329
+OBJC_METH_VAR_NAME_.330
+OBJC_METH_VAR_NAME_.331
+OBJC_METH_VAR_TYPE_.332
+OBJC_METH_VAR_NAME_.333
+OBJC_METH_VAR_TYPE_.334
+OBJC_METH_VAR_NAME_.335
+OBJC_METH_VAR_NAME_.336
+OBJC_METH_VAR_TYPE_.337
+OBJC_METH_VAR_NAME_.338
+OBJC_METH_VAR_TYPE_.339
+l_OBJC_$_INSTANCE_VARIABLES_SparkDevice
+OBJC_PROP_NAME_ATTR_.340
+OBJC_PROP_NAME_ATTR_.341
+OBJC_PROP_NAME_ATTR_.342
+OBJC_PROP_NAME_ATTR_.343
+OBJC_PROP_NAME_ATTR_.344
+OBJC_PROP_NAME_ATTR_.345
+OBJC_PROP_NAME_ATTR_.346
+OBJC_PROP_NAME_ATTR_.347
+OBJC_PROP_NAME_ATTR_.348
+OBJC_PROP_NAME_ATTR_.349
+OBJC_PROP_NAME_ATTR_.350
+OBJC_PROP_NAME_ATTR_.351
+OBJC_PROP_NAME_ATTR_.352
+OBJC_PROP_NAME_ATTR_.353
+OBJC_PROP_NAME_ATTR_.354
+OBJC_PROP_NAME_ATTR_.355
+OBJC_PROP_NAME_ATTR_.356
+OBJC_PROP_NAME_ATTR_.357
+OBJC_PROP_NAME_ATTR_.358
+OBJC_PROP_NAME_ATTR_.359
+OBJC_PROP_NAME_ATTR_.360
+OBJC_PROP_NAME_ATTR_.361
+OBJC_PROP_NAME_ATTR_.362
+OBJC_PROP_NAME_ATTR_.363
+OBJC_PROP_NAME_ATTR_.364
+OBJC_PROP_NAME_ATTR_.365
+OBJC_PROP_NAME_ATTR_.366
+OBJC_PROP_NAME_ATTR_.367
+OBJC_PROP_NAME_ATTR_.368
+l_OBJC_$_PROP_LIST_SparkDevice
+l_OBJC_CLASS_RO_$_SparkDevice
+-[SparkDevice .cxx_destruct]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/SDK/SparkDevice.m
+-[SparkDevice setBaseURL:]
+-[SparkDevice baseURL]
+-[SparkDevice setFlashingTimer:]
+-[SparkDevice flashingTimer]
+-[SparkDevice setFlashingTimeLeft:]
+-[SparkDevice flashingTimeLeft]
+-[SparkDevice setManager:]
+-[SparkDevice manager]
+-[SparkDevice type]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/SDK/SparkDevice.h
+-[SparkDevice setRequiresUpdate:]
+-[SparkDevice requiresUpdate]
+-[SparkDevice setVersion:]
+-[SparkDevice version]
+-[SparkDevice lastHeard]
+-[SparkDevice lastApp]
+-[SparkDevice setVariables:]
+-[SparkDevice variables]
+-[SparkDevice setFunctions:]
+-[SparkDevice functions]
+-[SparkDevice setConnected:]
+-[SparkDevice connected]
+-[SparkDevice name]
+-[SparkDevice setId:]
+-[SparkDevice id]
+-[SparkDevice unsubscribeFromEventWithID:]
+-[SparkDevice subscribeToEventsWithPrefix:handler:]
+-[SparkDevice setIsFlashing:]
+-[SparkDevice isFlashing]
+-[SparkDevice flashingTimeLeftTimerFunc:]
+-[SparkDevice flashFiles:completion:]
+-[SparkDevice flashKnownApp:completion:]
+-[SparkDevice description]
+-[SparkDevice makeErrorWithDescription:code:]
+-[SparkDevice setAuthHeaderWithAccessToken]
+-[SparkDevice defaultParams]
+-[SparkDevice rename:completion:]
+-[SparkDevice unclaim:]
+-[SparkDevice callFunction:withArguments:completion:]
+-[SparkDevice getVariable:completion:]
+-[SparkDevice setName:]
+-[SparkDevice refresh:]
+-[SparkDevice initWithParams:]
+-[KeychainItemWrapper initWithIdentifier:accessGroup:]
+-[KeychainItemWrapper setObject:forKey:]
+-[KeychainItemWrapper objectForKey:]
+-[KeychainItemWrapper resetKeychainItem]
+-[KeychainItemWrapper dictionaryToSecItemFormat:]
+-[KeychainItemWrapper secItemFormatToDictionary:]
+-[KeychainItemWrapper writeToKeychain]
+-[KeychainItemWrapper .cxx_destruct]
+OBJC_IVAR_$_KeychainItemWrapper.genericPasswordQuery
+OBJC_CLASSLIST_REFERENCES_$_.5
+OBJC_METH_VAR_NAME_.6
+OBJC_SELECTOR_REFERENCES_.7
+OBJC_IVAR_$_KeychainItemWrapper.keychainItemData
+OBJC_METH_VAR_NAME_.12
+OBJC_SELECTOR_REFERENCES_.13
+OBJC_METH_VAR_NAME_.18
+OBJC_SELECTOR_REFERENCES_.19
+OBJC_CLASSLIST_REFERENCES_$_.23
+OBJC_METH_VAR_NAME_.24
+OBJC_SELECTOR_REFERENCES_.25
+OBJC_METH_VAR_NAME_.26
+OBJC_SELECTOR_REFERENCES_.27
+l_OBJC_METACLASS_RO_$_KeychainItemWrapper
+OBJC_CLASS_NAME_.32
+OBJC_METH_VAR_TYPE_.34
+OBJC_METH_VAR_TYPE_.35
+OBJC_METH_VAR_TYPE_.36
+l_OBJC_$_INSTANCE_METHODS_KeychainItemWrapper
+OBJC_METH_VAR_NAME_.38
+OBJC_METH_VAR_TYPE_.39
+OBJC_METH_VAR_NAME_.40
+l_OBJC_$_INSTANCE_VARIABLES_KeychainItemWrapper
+l_OBJC_CLASS_RO_$_KeychainItemWrapper
+-[KeychainItemWrapper .cxx_destruct]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/Helpers/KeychainItemWrapper.m
+-[KeychainItemWrapper writeToKeychain]
+-[KeychainItemWrapper secItemFormatToDictionary:]
+-[KeychainItemWrapper dictionaryToSecItemFormat:]
+-[KeychainItemWrapper resetKeychainItem]
+-[KeychainItemWrapper objectForKey:]
+-[KeychainItemWrapper setObject:forKey:]
+-[KeychainItemWrapper initWithIdentifier:accessGroup:]
++[EventSource eventSourceWithURL:timeoutInterval:queue:accessToken:]
+-[EventSource initWithURL:timeoutInterval:queue:accessToken:]
+__61-[EventSource initWithURL:timeoutInterval:queue:accessToken:]_block_invoke
+-[EventSource addEventListener:handler:]
+-[EventSource removeEventListener:handler:]
+-[EventSource onMessage:]
+-[EventSource onError:]
+-[EventSource onOpen:]
+-[EventSource open]
+-[EventSource close]
+-[EventSource connection:didReceiveResponse:]
+__45-[EventSource connection:didReceiveResponse:]_block_invoke
+__copy_helper_block_.89
+__destroy_helper_block_.90
+-[EventSource connection:didFailWithError:]
+__43-[EventSource connection:didFailWithError:]_block_invoke
+__copy_helper_block_.96
+__destroy_helper_block_.97
+__43-[EventSource connection:didFailWithError:]_block_invoke.101
+__copy_helper_block_.102
+__destroy_helper_block_.103
+-[EventSource connection:didReceiveData:]
+__Block_byref_object_copy_
+__Block_byref_object_dispose_
+__41-[EventSource connection:didReceiveData:]_block_invoke
+__copy_helper_block_.138
+__destroy_helper_block_.139
+-[EventSource connectionDidFinishLoading:]
+__42-[EventSource connectionDidFinishLoading:]_block_invoke
+-[EventSource eventURL]
+-[EventSource setEventURL:]
+-[EventSource eventSource]
+-[EventSource setEventSource:]
+-[EventSource listeners]
+-[EventSource setListeners:]
+-[EventSource timeoutInterval]
+-[EventSource setTimeoutInterval:]
+-[EventSource retryInterval]
+-[EventSource setRetryInterval:]
+-[EventSource lastEventID]
+-[EventSource setLastEventID:]
+-[EventSource queue]
+-[EventSource setQueue:]
+-[EventSource accessToken]
+-[EventSource setAccessToken:]
+-[EventSource event]
+-[EventSource setEvent:]
+-[EventSource .cxx_destruct]
+-[Event description]
+-[Event copyWithZone:]
+-[Event name]
+-[Event setName:]
+-[Event data]
+-[Event setData:]
+-[Event readyState]
+-[Event setReadyState:]
+-[Event error]
+-[Event setError:]
+-[Event .cxx_destruct]
+.str.11
+_unnamed_cfstring_.12
+OBJC_CLASSLIST_REFERENCES_$_.17
+OBJC_IVAR_$_EventSource._listeners
+OBJC_IVAR_$_EventSource._eventURL
+OBJC_IVAR_$_EventSource._timeoutInterval
+OBJC_IVAR_$_EventSource._retryInterval
+OBJC_IVAR_$_EventSource._queue
+OBJC_IVAR_$_EventSource._accessToken
+OBJC_METH_VAR_NAME_.20
+OBJC_SELECTOR_REFERENCES_.21
+.str.22
+OBJC_CLASSLIST_REFERENCES_$_.32
+OBJC_IVAR_$_EventSource.wasClosed
+OBJC_CLASSLIST_REFERENCES_$_.45
+OBJC_METH_VAR_NAME_.46
+OBJC_SELECTOR_REFERENCES_.47
+OBJC_METH_VAR_NAME_.50
+OBJC_SELECTOR_REFERENCES_.51
+OBJC_CLASSLIST_REFERENCES_$_.52
+.str.53
+_unnamed_cfstring_.54
+.str.63
+_unnamed_cfstring_.64
+OBJC_CLASSLIST_REFERENCES_$_.72
+OBJC_METH_VAR_NAME_.77
+OBJC_SELECTOR_REFERENCES_.78
+OBJC_METH_VAR_NAME_.79
+OBJC_SELECTOR_REFERENCES_.80
+__block_descriptor_tmp.91
+.str.92
+_unnamed_cfstring_.93
+__block_descriptor_tmp.98
+__block_descriptor_tmp.104
+OBJC_SELECTOR_REFERENCES_.106
+OBJC_CLASSLIST_REFERENCES_$_.107
+OBJC_METH_VAR_NAME_.108
+OBJC_SELECTOR_REFERENCES_.109
+OBJC_METH_VAR_NAME_.110
+OBJC_SELECTOR_REFERENCES_.111
+OBJC_SELECTOR_REFERENCES_.115
+OBJC_SELECTOR_REFERENCES_.117
+OBJC_SELECTOR_REFERENCES_.119
+OBJC_METH_VAR_NAME_.120
+OBJC_SELECTOR_REFERENCES_.121
+OBJC_METH_VAR_NAME_.122
+OBJC_SELECTOR_REFERENCES_.123
+OBJC_METH_VAR_NAME_.124
+OBJC_SELECTOR_REFERENCES_.125
+OBJC_METH_VAR_NAME_.126
+OBJC_SELECTOR_REFERENCES_.127
+OBJC_METH_VAR_NAME_.130
+OBJC_SELECTOR_REFERENCES_.131
+OBJC_METH_VAR_NAME_.132
+OBJC_SELECTOR_REFERENCES_.133
+OBJC_METH_VAR_NAME_.134
+OBJC_SELECTOR_REFERENCES_.135
+OBJC_METH_VAR_NAME_.136
+OBJC_SELECTOR_REFERENCES_.137
+__block_descriptor_tmp.140
+OBJC_CLASSLIST_REFERENCES_$_.141
+.str.142
+_unnamed_cfstring_.143
+OBJC_METH_VAR_NAME_.144
+OBJC_SELECTOR_REFERENCES_.145
+.str.146
+_unnamed_cfstring_.147
+OBJC_CLASSLIST_REFERENCES_$_.148
+OBJC_METH_VAR_NAME_.149
+OBJC_SELECTOR_REFERENCES_.150
+OBJC_METH_VAR_NAME_.151
+OBJC_SELECTOR_REFERENCES_.152
+OBJC_IVAR_$_EventSource._eventSource
+OBJC_IVAR_$_EventSource._lastEventID
+OBJC_IVAR_$_EventSource._event
+l_OBJC_$_CLASS_METHODS_EventSource
+OBJC_METH_VAR_NAME_.157
+OBJC_METH_VAR_TYPE_.158
+OBJC_METH_VAR_TYPE_.159
+OBJC_METH_VAR_NAME_.160
+OBJC_METH_VAR_TYPE_.161
+OBJC_METH_VAR_TYPE_.162
+OBJC_METH_VAR_NAME_.163
+OBJC_METH_VAR_TYPE_.164
+OBJC_METH_VAR_NAME_.165
+OBJC_METH_VAR_TYPE_.166
+OBJC_METH_VAR_TYPE_.167
+OBJC_METH_VAR_NAME_.168
+OBJC_METH_VAR_NAME_.169
+OBJC_CLASS_NAME_.170
+OBJC_METH_VAR_NAME_.172
+OBJC_METH_VAR_TYPE_.173
+OBJC_METH_VAR_NAME_.174
+OBJC_METH_VAR_TYPE_.175
+OBJC_METH_VAR_NAME_.176
+OBJC_METH_VAR_TYPE_.177
+OBJC_METH_VAR_NAME_.178
+OBJC_METH_VAR_TYPE_.179
+OBJC_METH_VAR_TYPE_.181
+OBJC_METH_VAR_TYPE_.183
+OBJC_METH_VAR_NAME_.184
+OBJC_METH_VAR_TYPE_.185
+OBJC_METH_VAR_NAME_.187
+OBJC_METH_VAR_TYPE_.188
+OBJC_METH_VAR_NAME_.189
+OBJC_METH_VAR_TYPE_.190
+OBJC_METH_VAR_NAME_.191
+OBJC_METH_VAR_NAME_.192
+OBJC_METH_VAR_TYPE_.193
+OBJC_METH_VAR_NAME_.195
+OBJC_METH_VAR_TYPE_.196
+OBJC_METH_VAR_NAME_.197
+OBJC_METH_VAR_TYPE_.198
+OBJC_METH_VAR_NAME_.199
+OBJC_METH_VAR_NAME_.200
+OBJC_METH_VAR_TYPE_.202
+OBJC_METH_VAR_NAME_.203
+OBJC_CLASS_NAME_.204
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+OBJC_PROP_NAME_ATTR_.205
+OBJC_PROP_NAME_ATTR_.206
+OBJC_PROP_NAME_ATTR_.207
+OBJC_PROP_NAME_ATTR_.208
+OBJC_PROP_NAME_ATTR_.209
+OBJC_PROP_NAME_ATTR_.210
+l_OBJC_$_PROP_LIST_NSObject
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_$_PROTOCOL_REFS_NSURLConnectionDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLConnectionDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSURLConnectionDelegate
+l_OBJC_PROTOCOL_$_NSURLConnectionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLConnectionDelegate
+OBJC_METH_VAR_TYPE_.212
+OBJC_METH_VAR_TYPE_.213
+OBJC_METH_VAR_NAME_.214
+OBJC_METH_VAR_TYPE_.215
+OBJC_METH_VAR_NAME_.216
+OBJC_METH_VAR_TYPE_.217
+OBJC_METH_VAR_NAME_.218
+OBJC_METH_VAR_TYPE_.219
+OBJC_METH_VAR_TYPE_.220
+OBJC_METH_VAR_TYPE_.222
+OBJC_METH_VAR_TYPE_.223
+OBJC_METH_VAR_NAME_.224
+OBJC_METH_VAR_TYPE_.225
+OBJC_METH_VAR_NAME_.226
+OBJC_METH_VAR_TYPE_.227
+OBJC_METH_VAR_TYPE_.228
+OBJC_CLASS_NAME_.229
+l_OBJC_$_PROTOCOL_REFS_NSURLConnectionDataDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSURLConnectionDataDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSURLConnectionDataDelegate
+l_OBJC_PROTOCOL_$_NSURLConnectionDataDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLConnectionDataDelegate
+l_OBJC_CLASS_PROTOCOLS_$_EventSource
+l_OBJC_METACLASS_RO_$_EventSource
+OBJC_CLASS_NAME_.230
+OBJC_METH_VAR_TYPE_.231
+OBJC_METH_VAR_NAME_.232
+OBJC_METH_VAR_NAME_.233
+OBJC_METH_VAR_TYPE_.234
+OBJC_METH_VAR_NAME_.235
+OBJC_METH_VAR_NAME_.236
+OBJC_METH_VAR_TYPE_.237
+OBJC_METH_VAR_NAME_.238
+OBJC_METH_VAR_NAME_.239
+OBJC_METH_VAR_NAME_.240
+OBJC_METH_VAR_NAME_.241
+OBJC_METH_VAR_TYPE_.242
+OBJC_METH_VAR_NAME_.243
+OBJC_METH_VAR_TYPE_.244
+OBJC_METH_VAR_NAME_.245
+OBJC_METH_VAR_NAME_.246
+OBJC_METH_VAR_NAME_.247
+OBJC_METH_VAR_NAME_.248
+l_OBJC_$_INSTANCE_METHODS_EventSource
+OBJC_METH_VAR_NAME_.249
+OBJC_METH_VAR_TYPE_.250
+OBJC_METH_VAR_NAME_.251
+OBJC_METH_VAR_TYPE_.252
+OBJC_METH_VAR_NAME_.253
+OBJC_METH_VAR_TYPE_.254
+OBJC_METH_VAR_NAME_.255
+OBJC_METH_VAR_TYPE_.256
+OBJC_METH_VAR_NAME_.257
+OBJC_METH_VAR_TYPE_.258
+OBJC_METH_VAR_NAME_.259
+OBJC_METH_VAR_TYPE_.260
+OBJC_METH_VAR_NAME_.261
+OBJC_METH_VAR_TYPE_.262
+OBJC_METH_VAR_NAME_.263
+OBJC_METH_VAR_TYPE_.264
+OBJC_METH_VAR_NAME_.265
+OBJC_METH_VAR_TYPE_.266
+OBJC_METH_VAR_NAME_.267
+l_OBJC_$_INSTANCE_VARIABLES_EventSource
+OBJC_PROP_NAME_ATTR_.268
+OBJC_PROP_NAME_ATTR_.269
+OBJC_PROP_NAME_ATTR_.270
+OBJC_PROP_NAME_ATTR_.271
+OBJC_PROP_NAME_ATTR_.272
+OBJC_PROP_NAME_ATTR_.273
+OBJC_PROP_NAME_ATTR_.274
+OBJC_PROP_NAME_ATTR_.275
+OBJC_PROP_NAME_ATTR_.276
+OBJC_PROP_NAME_ATTR_.277
+OBJC_PROP_NAME_ATTR_.278
+OBJC_PROP_NAME_ATTR_.279
+OBJC_PROP_NAME_ATTR_.280
+OBJC_PROP_NAME_ATTR_.281
+OBJC_PROP_NAME_ATTR_.282
+OBJC_PROP_NAME_ATTR_.283
+OBJC_PROP_NAME_ATTR_.284
+OBJC_PROP_NAME_ATTR_.285
+l_OBJC_$_PROP_LIST_EventSource
+l_OBJC_CLASS_RO_$_EventSource
+.str.286
+_unnamed_cfstring_.287
+.str.288
+_unnamed_cfstring_.289
+.str.290
+_unnamed_cfstring_.291
+.str.292
+_unnamed_cfstring_.293
+OBJC_SELECTOR_REFERENCES_.294
+OBJC_METH_VAR_NAME_.295
+OBJC_SELECTOR_REFERENCES_.296
+OBJC_METH_VAR_NAME_.297
+OBJC_SELECTOR_REFERENCES_.298
+OBJC_IVAR_$_Event._name
+OBJC_IVAR_$_Event._data
+OBJC_IVAR_$_Event._readyState
+OBJC_IVAR_$_Event._error
+OBJC_CLASS_NAME_.299
+OBJC_METH_VAR_NAME_.300
+OBJC_CLASS_NAME_.302
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+l_OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+l_OBJC_CLASS_PROTOCOLS_$_Event
+l_OBJC_METACLASS_RO_$_Event
+OBJC_CLASS_NAME_.303
+OBJC_METH_VAR_TYPE_.304
+OBJC_METH_VAR_TYPE_.305
+l_OBJC_$_INSTANCE_METHODS_Event
+OBJC_METH_VAR_NAME_.306
+OBJC_METH_VAR_TYPE_.310
+OBJC_METH_VAR_TYPE_.312
+l_OBJC_$_INSTANCE_VARIABLES_Event
+OBJC_PROP_NAME_ATTR_.313
+OBJC_PROP_NAME_ATTR_.314
+OBJC_PROP_NAME_ATTR_.315
+OBJC_PROP_NAME_ATTR_.316
+OBJC_PROP_NAME_ATTR_.317
+OBJC_PROP_NAME_ATTR_.318
+OBJC_PROP_NAME_ATTR_.319
+OBJC_PROP_NAME_ATTR_.320
+l_OBJC_$_PROP_LIST_Event
+l_OBJC_CLASS_RO_$_Event
+.str.321
+_unnamed_cfstring_.322
+.str.323
+_unnamed_cfstring_.324
+.str.325
+_unnamed_cfstring_.326
+-[Event .cxx_destruct]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/Helpers/EventSource.m
+-[Event setError:]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/Helpers/EventSource.h
+-[Event error]
+-[Event setReadyState:]
+-[Event readyState]
+-[Event setData:]
+-[Event data]
+-[Event setName:]
+-[Event name]
+-[Event copyWithZone:]
+-[Event description]
+-[EventSource .cxx_destruct]
+-[EventSource setEvent:]
+-[EventSource event]
+-[EventSource setAccessToken:]
+-[EventSource accessToken]
+-[EventSource setQueue:]
+-[EventSource queue]
+-[EventSource setLastEventID:]
+-[EventSource lastEventID]
+-[EventSource setRetryInterval:]
+-[EventSource retryInterval]
+-[EventSource setTimeoutInterval:]
+-[EventSource timeoutInterval]
+-[EventSource setListeners:]
+-[EventSource listeners]
+-[EventSource setEventSource:]
+-[EventSource eventSource]
+-[EventSource setEventURL:]
+-[EventSource eventURL]
+-[EventSource connectionDidFinishLoading:]
+-[EventSource connection:didReceiveData:]
+-[EventSource connection:didFailWithError:]
+-[EventSource connection:didReceiveResponse:]
+-[EventSource close]
+-[EventSource open]
+-[EventSource onOpen:]
+-[EventSource onError:]
+-[EventSource onMessage:]
+-[EventSource removeEventListener:handler:]
+-[EventSource addEventListener:handler:]
+-[EventSource initWithURL:timeoutInterval:queue:accessToken:]
++[EventSource eventSourceWithURL:timeoutInterval:queue:accessToken:]
++[SparkCloud sharedInstance]
+-[SparkCloud init]
+-[SparkCloud accessToken]
+-[SparkCloud injectSessionAccessToken:]
+-[SparkCloud injectSessionAccessToken:withExpiryDate:]
+-[SparkCloud injectSessionAccessToken:withExpiryDate:andRefreshToken:]
+-[SparkCloud loggedInUsername]
+-[SparkCloud isLoggedIn]
+-[SparkCloud isAuthenticated]
+-[SparkCloud setOAuthClientId:]
+-[SparkCloud setOAuthClientSecret:]
+-[SparkCloud SparkSession:didExpireAt:]
+-[SparkCloud refreshToken:]
+__27-[SparkCloud refreshToken:]_block_invoke
+__27-[SparkCloud refreshToken:]_block_invoke.95
+-[SparkCloud loginWithUser:password:completion:]
+__48-[SparkCloud loginWithUser:password:completion:]_block_invoke
+__48-[SparkCloud loginWithUser:password:completion:]_block_invoke.124
+__copy_helper_block_.132
+__destroy_helper_block_.133
+-[SparkCloud signupWithUser:password:completion:]
+__49-[SparkCloud signupWithUser:password:completion:]_block_invoke
+__copy_helper_block_.154
+__destroy_helper_block_.155
+__49-[SparkCloud signupWithUser:password:completion:]_block_invoke.157
+__copy_helper_block_.160
+__destroy_helper_block_.161
+-[SparkCloud signupWithCustomer:password:orgSlug:completion:]
+__61-[SparkCloud signupWithCustomer:password:orgSlug:completion:]_block_invoke
+__copy_helper_block_.183
+__destroy_helper_block_.184
+__61-[SparkCloud signupWithCustomer:password:orgSlug:completion:]_block_invoke.186
+__copy_helper_block_.189
+__destroy_helper_block_.190
+-[SparkCloud logout]
+-[SparkCloud claimDevice:completion:]
+__37-[SparkCloud claimDevice:completion:]_block_invoke
+__copy_helper_block_.204
+__destroy_helper_block_.205
+__37-[SparkCloud claimDevice:completion:]_block_invoke.207
+__copy_helper_block_.210
+__destroy_helper_block_.211
+-[SparkCloud getDevice:completion:]
+__35-[SparkCloud getDevice:completion:]_block_invoke
+__copy_helper_block_.218
+__destroy_helper_block_.219
+__35-[SparkCloud getDevice:completion:]_block_invoke.221
+__copy_helper_block_.224
+__destroy_helper_block_.225
+-[SparkCloud getDevices:]
+__25-[SparkCloud getDevices:]_block_invoke
+__25-[SparkCloud getDevices:]_block_invoke.241
+__copy_helper_block_.242
+__destroy_helper_block_.243
+__25-[SparkCloud getDevices:]_block_invoke.248
+__copy_helper_block_.251
+__destroy_helper_block_.252
+__copy_helper_block_.255
+__destroy_helper_block_.256
+__25-[SparkCloud getDevices:]_block_invoke.258
+__copy_helper_block_.261
+__destroy_helper_block_.262
+-[SparkCloud generateClaimCode:]
+__32-[SparkCloud generateClaimCode:]_block_invoke
+__copy_helper_block_.272
+__destroy_helper_block_.273
+__32-[SparkCloud generateClaimCode:]_block_invoke.275
+__copy_helper_block_.278
+__destroy_helper_block_.279
+-[SparkCloud generateClaimCodeForOrganization:andProduct:withActivationCode:completion:]
+__88-[SparkCloud generateClaimCodeForOrganization:andProduct:withActivationCode:completion:]_block_invoke
+__copy_helper_block_.285
+__destroy_helper_block_.286
+__88-[SparkCloud generateClaimCodeForOrganization:andProduct:withActivationCode:completion:]_block_invoke.288
+__copy_helper_block_.291
+__destroy_helper_block_.292
+-[SparkCloud requestPasswordResetForCustomer:email:completion:]
+__63-[SparkCloud requestPasswordResetForCustomer:email:completion:]_block_invoke
+__copy_helper_block_.296
+__destroy_helper_block_.297
+__63-[SparkCloud requestPasswordResetForCustomer:email:completion:]_block_invoke.299
+__copy_helper_block_.302
+__destroy_helper_block_.303
+-[SparkCloud requestPasswordResetForUser:completion:]
+__53-[SparkCloud requestPasswordResetForUser:completion:]_block_invoke
+__copy_helper_block_.307
+__destroy_helper_block_.308
+__53-[SparkCloud requestPasswordResetForUser:completion:]_block_invoke.310
+__copy_helper_block_.313
+__destroy_helper_block_.314
+-[SparkCloud listTokens:password:]
+__34-[SparkCloud listTokens:password:]_block_invoke
+__34-[SparkCloud listTokens:password:]_block_invoke_2
+-[SparkCloud makeErrorWithDescription:code:]
+-[SparkCloud subscribeToEventWithURL:handler:]
+__46-[SparkCloud subscribeToEventWithURL:handler:]_block_invoke
+__copy_helper_block_.352
+__destroy_helper_block_.353
+-[SparkCloud unsubscribeFromEventWithID:]
+-[SparkCloud subscribeToAllEventsWithPrefix:handler:]
+-[SparkCloud subscribeToMyDevicesEventsWithPrefix:handler:]
+-[SparkCloud subscribeToDeviceEventsWithPrefix:deviceID:handler:]
+-[SparkCloud publishEventWithName:data:isPrivate:ttl:completion:]
+__65-[SparkCloud publishEventWithName:data:isPrivate:ttl:completion:]_block_invoke
+__copy_helper_block_.405
+__destroy_helper_block_.406
+__65-[SparkCloud publishEventWithName:data:isPrivate:ttl:completion:]_block_invoke.408
+__copy_helper_block_.409
+__destroy_helper_block_.410
+-[SparkCloud OAuthClientId]
+-[SparkCloud OAuthClientSecret]
+-[SparkCloud baseURL]
+-[SparkCloud setBaseURL:]
+-[SparkCloud session]
+-[SparkCloud setSession:]
+-[SparkCloud manager]
+-[SparkCloud setManager:]
+-[SparkCloud eventListenersDict]
+-[SparkCloud setEventListenersDict:]
+-[SparkCloud .cxx_destruct]
+sharedInstance.sharedInstance
+OBJC_METH_VAR_NAME_.9
+OBJC_SELECTOR_REFERENCES_.10
+OBJC_CLASSLIST_REFERENCES_$_.21
+OBJC_METH_VAR_NAME_.22
+OBJC_SELECTOR_REFERENCES_.23
+OBJC_CLASSLIST_REFERENCES_$_.30
+OBJC_METH_VAR_NAME_.31
+OBJC_SELECTOR_REFERENCES_.32
+OBJC_CLASSLIST_REFERENCES_$_.37
+OBJC_SELECTOR_REFERENCES_.39
+OBJC_SELECTOR_REFERENCES_.41
+OBJC_METH_VAR_NAME_.42
+OBJC_SELECTOR_REFERENCES_.43
+OBJC_CLASSLIST_REFERENCES_$_.46
+OBJC_METH_VAR_NAME_.59
+OBJC_SELECTOR_REFERENCES_.60
+OBJC_IVAR_$_SparkCloud._OAuthClientId
+OBJC_IVAR_$_SparkCloud._OAuthClientSecret
+.str.67
+_unnamed_cfstring_.68
+.str.69
+_unnamed_cfstring_.70
+.str.71
+_unnamed_cfstring_.72
+OBJC_CLASSLIST_REFERENCES_$_.73
+OBJC_METH_VAR_NAME_.74
+OBJC_SELECTOR_REFERENCES_.75
+.str.82
+_unnamed_cfstring_.83
+.str.86
+_unnamed_cfstring_.87
+OBJC_METH_VAR_NAME_.88
+OBJC_SELECTOR_REFERENCES_.89
+OBJC_METH_VAR_NAME_.90
+OBJC_SELECTOR_REFERENCES_.91
+.str.94
+OBJC_METH_VAR_NAME_.98
+OBJC_SELECTOR_REFERENCES_.99
+OBJC_CLASSLIST_REFERENCES_$_.102
+OBJC_METH_VAR_NAME_.103
+OBJC_SELECTOR_REFERENCES_.104
+.str.105
+_unnamed_cfstring_.106
+OBJC_SELECTOR_REFERENCES_.108
+OBJC_SELECTOR_REFERENCES_.110
+OBJC_SELECTOR_REFERENCES_.112
+.str.113
+__block_descriptor_tmp.114
+__block_literal_global
+OBJC_SELECTOR_REFERENCES_.116
+OBJC_METH_VAR_NAME_.117
+OBJC_SELECTOR_REFERENCES_.118
+.str.119
+_unnamed_cfstring_.120
+__block_descriptor_tmp.123
+OBJC_CLASSLIST_REFERENCES_$_.125
+.str.130
+_unnamed_cfstring_.131
+__block_descriptor_tmp.134
+.str.137
+_unnamed_cfstring_.138
+OBJC_METH_VAR_NAME_.143
+OBJC_SELECTOR_REFERENCES_.144
+OBJC_CLASSLIST_REFERENCES_$_.145
+OBJC_METH_VAR_NAME_.148
+OBJC_SELECTOR_REFERENCES_.149
+.str.150
+_unnamed_cfstring_.151
+OBJC_METH_VAR_NAME_.152
+OBJC_SELECTOR_REFERENCES_.153
+__block_descriptor_tmp.156
+__block_descriptor_tmp.162
+OBJC_SELECTOR_REFERENCES_.164
+.str.165
+_unnamed_cfstring_.166
+.str.167
+_unnamed_cfstring_.168
+.str.169
+_unnamed_cfstring_.170
+.str.171
+_unnamed_cfstring_.172
+.str.173
+_unnamed_cfstring_.174
+.str.175
+_unnamed_cfstring_.176
+.str.177
+_unnamed_cfstring_.178
+.str.179
+_unnamed_cfstring_.180
+OBJC_METH_VAR_NAME_.181
+OBJC_SELECTOR_REFERENCES_.182
+__block_descriptor_tmp.185
+.str.187
+_unnamed_cfstring_.188
+__block_descriptor_tmp.191
+OBJC_SELECTOR_REFERENCES_.193
+.str.194
+_unnamed_cfstring_.195
+.str.196
+_unnamed_cfstring_.197
+OBJC_METH_VAR_NAME_.198
+OBJC_SELECTOR_REFERENCES_.199
+.str.200
+_unnamed_cfstring_.201
+.str.202
+_unnamed_cfstring_.203
+__block_descriptor_tmp.206
+.str.208
+_unnamed_cfstring_.209
+__block_descriptor_tmp.212
+.str.213
+_unnamed_cfstring_.214
+OBJC_CLASSLIST_REFERENCES_$_.215
+OBJC_SELECTOR_REFERENCES_.217
+__block_descriptor_tmp.220
+.str.222
+_unnamed_cfstring_.223
+__block_descriptor_tmp.226
+OBJC_CLASSLIST_REFERENCES_$_.229
+OBJC_METH_VAR_NAME_.230
+OBJC_SELECTOR_REFERENCES_.231
+OBJC_CLASSLIST_REFERENCES_$_.232
+OBJC_SELECTOR_REFERENCES_.234
+OBJC_SELECTOR_REFERENCES_.236
+.str.237
+_unnamed_cfstring_.238
+OBJC_SELECTOR_REFERENCES_.240
+__block_descriptor_tmp.245
+OBJC_SELECTOR_REFERENCES_.247
+OBJC_SELECTOR_REFERENCES_.250
+.str.253
+__block_descriptor_tmp.254
+__block_descriptor_tmp.257
+.str.259
+_unnamed_cfstring_.260
+__block_descriptor_tmp.263
+.str.264
+_unnamed_cfstring_.265
+.str.266
+_unnamed_cfstring_.267
+.str.268
+_unnamed_cfstring_.269
+.str.270
+_unnamed_cfstring_.271
+__block_descriptor_tmp.274
+.str.276
+_unnamed_cfstring_.277
+__block_descriptor_tmp.280
+.str.281
+_unnamed_cfstring_.282
+.str.283
+_unnamed_cfstring_.284
+__block_descriptor_tmp.287
+.str.289
+_unnamed_cfstring_.290
+__block_descriptor_tmp.293
+.str.294
+_unnamed_cfstring_.295
+__block_descriptor_tmp.298
+.str.300
+_unnamed_cfstring_.301
+__block_descriptor_tmp.304
+.str.305
+_unnamed_cfstring_.306
+__block_descriptor_tmp.309
+.str.311
+_unnamed_cfstring_.312
+__block_descriptor_tmp.315
+.str.316
+_unnamed_cfstring_.317
+.str.318
+_unnamed_cfstring_.319
+OBJC_SELECTOR_REFERENCES_.321
+__block_descriptor_tmp.322
+__block_literal_global.323
+.str.324
+_unnamed_cfstring_.325
+OBJC_METH_VAR_NAME_.326
+OBJC_SELECTOR_REFERENCES_.327
+__block_descriptor_tmp.328
+__block_literal_global.329
+OBJC_SELECTOR_REFERENCES_.331
+OBJC_METH_VAR_NAME_.332
+OBJC_SELECTOR_REFERENCES_.333
+.str.334
+_unnamed_cfstring_.335
+.str.336
+_unnamed_cfstring_.337
+OBJC_CLASSLIST_REFERENCES_$_.338
+OBJC_METH_VAR_NAME_.339
+OBJC_SELECTOR_REFERENCES_.340
+OBJC_METH_VAR_NAME_.341
+OBJC_SELECTOR_REFERENCES_.342
+OBJC_METH_VAR_NAME_.343
+OBJC_SELECTOR_REFERENCES_.344
+OBJC_METH_VAR_NAME_.345
+OBJC_SELECTOR_REFERENCES_.346
+.str.347
+_unnamed_cfstring_.348
+OBJC_CLASSLIST_REFERENCES_$_.349
+OBJC_METH_VAR_NAME_.350
+OBJC_SELECTOR_REFERENCES_.351
+.str.354
+__block_descriptor_tmp.355
+OBJC_METH_VAR_NAME_.356
+OBJC_SELECTOR_REFERENCES_.357
+OBJC_CLASSLIST_REFERENCES_$_.358
+OBJC_METH_VAR_NAME_.359
+OBJC_SELECTOR_REFERENCES_.360
+OBJC_METH_VAR_NAME_.361
+OBJC_SELECTOR_REFERENCES_.362
+OBJC_METH_VAR_NAME_.363
+OBJC_SELECTOR_REFERENCES_.364
+OBJC_METH_VAR_NAME_.365
+OBJC_SELECTOR_REFERENCES_.366
+OBJC_METH_VAR_NAME_.367
+OBJC_SELECTOR_REFERENCES_.368
+.str.369
+_unnamed_cfstring_.370
+OBJC_METH_VAR_NAME_.371
+OBJC_SELECTOR_REFERENCES_.372
+.str.373
+_unnamed_cfstring_.374
+.str.375
+_unnamed_cfstring_.376
+OBJC_METH_VAR_NAME_.377
+OBJC_SELECTOR_REFERENCES_.378
+.str.379
+_unnamed_cfstring_.380
+.str.381
+_unnamed_cfstring_.382
+.str.383
+_unnamed_cfstring_.384
+.str.385
+_unnamed_cfstring_.386
+.str.387
+_unnamed_cfstring_.388
+.str.389
+_unnamed_cfstring_.390
+.str.391
+_unnamed_cfstring_.392
+.str.393
+_unnamed_cfstring_.394
+.str.395
+_unnamed_cfstring_.396
+.str.397
+_unnamed_cfstring_.398
+.str.399
+_unnamed_cfstring_.400
+.str.401
+_unnamed_cfstring_.402
+.str.403
+_unnamed_cfstring_.404
+__block_descriptor_tmp.407
+__block_descriptor_tmp.411
+OBJC_IVAR_$_SparkCloud._baseURL
+OBJC_IVAR_$_SparkCloud._session
+OBJC_IVAR_$_SparkCloud._manager
+OBJC_IVAR_$_SparkCloud._eventListenersDict
+OBJC_METH_VAR_NAME_.412
+l_OBJC_$_CLASS_METHODS_SparkCloud
+OBJC_METH_VAR_NAME_.413
+OBJC_METH_VAR_TYPE_.414
+OBJC_METH_VAR_TYPE_.415
+OBJC_CLASS_NAME_.416
+OBJC_METH_VAR_NAME_.417
+OBJC_METH_VAR_TYPE_.418
+OBJC_METH_VAR_TYPE_.419
+OBJC_METH_VAR_NAME_.420
+OBJC_METH_VAR_NAME_.421
+OBJC_METH_VAR_TYPE_.422
+OBJC_METH_VAR_NAME_.423
+OBJC_METH_VAR_TYPE_.424
+OBJC_METH_VAR_NAME_.425
+OBJC_METH_VAR_TYPE_.426
+OBJC_METH_VAR_NAME_.427
+OBJC_METH_VAR_TYPE_.428
+OBJC_METH_VAR_TYPE_.429
+OBJC_METH_VAR_NAME_.430
+OBJC_METH_VAR_NAME_.431
+OBJC_METH_VAR_TYPE_.432
+OBJC_METH_VAR_NAME_.433
+OBJC_METH_VAR_TYPE_.434
+OBJC_METH_VAR_NAME_.435
+OBJC_METH_VAR_NAME_.436
+OBJC_METH_VAR_TYPE_.437
+OBJC_METH_VAR_NAME_.438
+OBJC_METH_VAR_NAME_.439
+OBJC_METH_VAR_TYPE_.440
+OBJC_METH_VAR_NAME_.441
+OBJC_METH_VAR_TYPE_.442
+OBJC_METH_VAR_NAME_.443
+OBJC_METH_VAR_NAME_.444
+OBJC_METH_VAR_TYPE_.445
+OBJC_METH_VAR_NAME_.446
+OBJC_CLASS_NAME_.447
+OBJC_PROP_NAME_ATTR_.448
+OBJC_PROP_NAME_ATTR_.449
+OBJC_PROP_NAME_ATTR_.450
+OBJC_PROP_NAME_ATTR_.451
+OBJC_PROP_NAME_ATTR_.452
+OBJC_PROP_NAME_ATTR_.453
+l_OBJC_$_PROTOCOL_REFS_SparkSessionDelegate
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS_SparkSessionDelegate
+l_OBJC_$_PROTOCOL_METHOD_TYPES_SparkSessionDelegate
+l_OBJC_PROTOCOL_$_SparkSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_SparkSessionDelegate
+l_OBJC_CLASS_PROTOCOLS_$_SparkCloud
+l_OBJC_METACLASS_RO_$_SparkCloud
+OBJC_CLASS_NAME_.454
+OBJC_METH_VAR_NAME_.455
+OBJC_METH_VAR_NAME_.456
+OBJC_METH_VAR_TYPE_.457
+OBJC_METH_VAR_NAME_.458
+OBJC_METH_VAR_TYPE_.459
+OBJC_METH_VAR_NAME_.460
+OBJC_METH_VAR_NAME_.461
+OBJC_METH_VAR_NAME_.462
+OBJC_METH_VAR_TYPE_.463
+OBJC_METH_VAR_NAME_.464
+OBJC_METH_VAR_TYPE_.465
+OBJC_METH_VAR_NAME_.466
+OBJC_METH_VAR_NAME_.467
+OBJC_METH_VAR_TYPE_.468
+OBJC_METH_VAR_TYPE_.469
+OBJC_METH_VAR_NAME_.470
+OBJC_METH_VAR_TYPE_.471
+OBJC_METH_VAR_NAME_.472
+OBJC_METH_VAR_TYPE_.473
+OBJC_METH_VAR_NAME_.474
+OBJC_METH_VAR_NAME_.475
+OBJC_METH_VAR_NAME_.476
+OBJC_METH_VAR_NAME_.477
+OBJC_METH_VAR_NAME_.478
+OBJC_METH_VAR_TYPE_.479
+OBJC_METH_VAR_TYPE_.480
+OBJC_METH_VAR_NAME_.481
+OBJC_METH_VAR_NAME_.482
+OBJC_METH_VAR_NAME_.483
+OBJC_METH_VAR_NAME_.484
+OBJC_METH_VAR_NAME_.485
+OBJC_METH_VAR_TYPE_.486
+OBJC_METH_VAR_NAME_.487
+l_OBJC_$_INSTANCE_METHODS_SparkCloud
+OBJC_METH_VAR_NAME_.488
+OBJC_METH_VAR_TYPE_.489
+OBJC_METH_VAR_NAME_.490
+OBJC_METH_VAR_NAME_.491
+OBJC_METH_VAR_TYPE_.492
+OBJC_METH_VAR_NAME_.493
+OBJC_METH_VAR_TYPE_.494
+OBJC_METH_VAR_NAME_.495
+OBJC_METH_VAR_TYPE_.496
+OBJC_METH_VAR_NAME_.497
+OBJC_METH_VAR_TYPE_.498
+l_OBJC_$_INSTANCE_VARIABLES_SparkCloud
+OBJC_PROP_NAME_ATTR_.499
+OBJC_PROP_NAME_ATTR_.500
+OBJC_PROP_NAME_ATTR_.501
+OBJC_PROP_NAME_ATTR_.502
+OBJC_PROP_NAME_ATTR_.503
+OBJC_PROP_NAME_ATTR_.504
+OBJC_PROP_NAME_ATTR_.505
+OBJC_PROP_NAME_ATTR_.506
+OBJC_PROP_NAME_ATTR_.507
+OBJC_PROP_NAME_ATTR_.508
+OBJC_PROP_NAME_ATTR_.509
+OBJC_PROP_NAME_ATTR_.510
+OBJC_PROP_NAME_ATTR_.511
+OBJC_PROP_NAME_ATTR_.512
+OBJC_PROP_NAME_ATTR_.513
+OBJC_PROP_NAME_ATTR_.514
+OBJC_PROP_NAME_ATTR_.515
+OBJC_PROP_NAME_ATTR_.516
+l_OBJC_$_PROP_LIST_SparkCloud
+l_OBJC_CLASS_RO_$_SparkCloud
+dispatch_get_main_queue
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/dispatch/queue.h
+-[SparkCloud .cxx_destruct]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/SDK/SparkCloud.m
+-[SparkCloud setEventListenersDict:]
+-[SparkCloud eventListenersDict]
+-[SparkCloud setManager:]
+-[SparkCloud manager]
+-[SparkCloud setSession:]
+-[SparkCloud session]
+-[SparkCloud setBaseURL:]
+-[SparkCloud baseURL]
+-[SparkCloud OAuthClientSecret]
+/Users/mini/Swift/Heater/Carthage/Checkouts/spark-sdk-ios/Pod/Classes/SDK/SparkCloud.h
+-[SparkCloud OAuthClientId]
+-[SparkCloud publishEventWithName:data:isPrivate:ttl:completion:]
+-[SparkCloud subscribeToDeviceEventsWithPrefix:deviceID:handler:]
+-[SparkCloud subscribeToMyDevicesEventsWithPrefix:handler:]
+-[SparkCloud subscribeToAllEventsWithPrefix:handler:]
+-[SparkCloud unsubscribeFromEventWithID:]
+-[SparkCloud subscribeToEventWithURL:handler:]
+-[SparkCloud makeErrorWithDescription:code:]
+-[SparkCloud listTokens:password:]
+-[SparkCloud requestPasswordResetForUser:completion:]
+-[SparkCloud requestPasswordResetForCustomer:email:completion:]
+-[SparkCloud generateClaimCodeForOrganization:andProduct:withActivationCode:completion:]
+-[SparkCloud generateClaimCode:]
+-[SparkCloud getDevices:]
+-[SparkCloud getDevice:completion:]
+-[SparkCloud claimDevice:completion:]
+-[SparkCloud logout]
+-[SparkCloud signupWithCustomer:password:orgSlug:completion:]
+-[SparkCloud signupWithUser:password:completion:]
+-[SparkCloud loginWithUser:password:completion:]
+-[SparkCloud refreshToken:]
+-[SparkCloud SparkSession:didExpireAt:]
+-[SparkCloud setOAuthClientSecret:]
+-[SparkCloud setOAuthClientId:]
+-[SparkCloud isAuthenticated]
+-[SparkCloud isLoggedIn]
+-[SparkCloud loggedInUsername]
+-[SparkCloud injectSessionAccessToken:withExpiryDate:andRefreshToken:]
+-[SparkCloud injectSessionAccessToken:withExpiryDate:]
+-[SparkCloud injectSessionAccessToken:]
+-[SparkCloud accessToken]
+-[SparkCloud init]
++[SparkCloud sharedInstance]
+/Users/mini/Library/Developer/Xcode/DerivedData/spark-sdk-gqgltvexdguqkoawklarroagufuc/Build/Intermediates/ParticleSDK.build/Release-iphoneos/ParticleSDK.build/DerivedSources/ParticleSDK_vers.c
+_ZL15__ARCLite__loadv
+_ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+_ZL34__arclite_objc_autoreleasePoolPushv
+_ZL33__arclite_objc_autoreleasePoolPopPv
+_ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+_ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+_ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+_ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+_ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+_ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+_ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+_ZL18add_image_hook_ARCPK11mach_headerl
+_ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+_ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+_ZL21__arclite_object_copyP11objc_objectm
+_ZL21__arclite_objc_retainP11objc_object
+_ZL26__arclite_objc_retainBlockP11objc_object
+_ZL22__arclite_objc_releaseP11objc_object
+_ZL26__arclite_objc_autoreleaseP11objc_object
+_ZL32__arclite_objc_retainAutoreleaseP11objc_object
+_ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+_ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+_ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+_ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+_ZL22add_image_hook_swiftV1PK11mach_headerl
+_ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+_ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+_ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+_ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+_ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+_ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+_ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+_ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+_ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+_ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+_ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+_ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+_ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+_ZL32__arclite_object_getIndexedIvarsP11objc_object
+_ZL23__arclite_objc_getClassPKc
+_ZL27__arclite_objc_getMetaClassPKc
+_ZL31__arclite_objc_getRequiredClassPKc
+_ZL26__arclite_objc_lookUpClassPKc
+_ZL26__arclite_objc_getProtocolPKc
+_ZL23__arclite_class_getNameP10objc_class
+_ZL26__arclite_protocol_getNameP8Protocol
+_ZL37__arclite_objc_copyClassNamesForImagePKcPj
+_ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+_ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+_ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+_ZL14initialize_impP11objc_objectP13objc_selector
+_ZL18allocateMaybeSwiftP18glue_swift_class_tm
+_ZL22copySwiftV1MangledNamePKcb
+_ZL13demangledNamePKcb
+_ZL16scanMangledFieldRPKcS0_S1_Ri
+_ZL30arclite_uninitialized_functionv
+_ZL12cxxConstructP11objc_object
+_ZL20fixStringForCoreDataP11objc_object
+OBJC_METACLASS_$___ARCLite__
+_ZL24OBJC_CLASS_$___ARCLite__
+_ZL31OBJC_METACLASS_RO_$___ARCLite__
+_non_lazy_classes
+_ZL27OBJC_CLASS_RO_$___ARCLite__
+_ZL11_class_name
+_ZL32OBJC_$_CLASS_METHODS___ARCLite__
+_ZL17_load_method_name
+_ZL17_load_method_type
+_ZL23NSAutoreleasePool_class
+_ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+_ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+.str.2
+.str.6
+.str.10
+.str.16
+.str.17
+OBJC_METH_VAR_TYPE_.20
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteIndexedSubscripting__
+l_OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+OBJC_METH_VAR_TYPE_.29
+OBJC_METH_VAR_TYPE_.31
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+l_OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+.str.35
+_ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+_ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+.str.42
+.str.44
+.str.45
+.str.47
+.str.48
+.str.49
+.str.50
+.str.52
+.str.60
+_ZL30NSUndoManagerProxy_targetClass
+.str.64
+_ZL29original_NSManagedObject_init
+OBJC_METH_VAR_NAME_.67
+OBJC_SELECTOR_REFERENCES_.68
+_ZL40original_NSManagedObject_allocWithEntity
+OBJC_METH_VAR_NAME_.69
+OBJC_SELECTOR_REFERENCES_.70
+_ZL35original_NSManagedObject_allocBatch
+_ZL25NSMutableDictionary_class
+_ZL22NSConstantString_class
+.str.72
+_ZL14NSString_class
+.str.73
+_ZL36original_NSKKMS_fastIndexForKnownKey
+_ZL27original_NSKKMS_indexForKey
+.str.78
+_ZL28original_NSKKsD_objectForKey
+_ZL34original_NSKKsD_removeObjectForKey
+_ZL32original_NSKKsD_setObject_forKey
+_ZL40original_NSKKsD_addEntriesFromDictionary
+_ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+_ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+.str.81
+_ZL31original_objc_allocateClassPair
+.str.83
+_ZL31original_object_getIndexedIvars
+.str.84
+_ZL22original_objc_getClass
+.str.85
+_ZL26original_objc_getMetaClass
+_ZL30original_objc_getRequiredClass
+.str.87
+_ZL25original_objc_lookUpClass
+.str.88
+_ZL25original_objc_getProtocol
+.str.89
+_ZL22original_class_getName
+.str.90
+_ZL25original_protocol_getName
+.str.91
+_ZL36original_objc_copyClassNamesForImage
+OBJC_METH_VAR_NAME_.92
+OBJC_SELECTOR_REFERENCES_.93
+.str.96
+.str.97
+.str.99
+.str.100
+.str.101
+.str.102
+.str.103
+_ZL12demangleLock
+_ZL9Demangled
+.str.104
+Apple LLVM version 7.3.0 (clang-703.0.21)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=264.3 -march=armv7a
+__arclite_NSKKsD_addEntriesFromDictionary
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+fixStringForCoreData
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+cxxConstruct
+__arclite_NSManagedObject_init
+arclite_uninitialized_function
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+patch_t<const char **(const char *, unsigned int *)>
+__arclite_objc_copyClassNamesForImage
+patch_t<const char *(Protocol *)>
+__arclite_protocol_getName
+patch_t<const char *(Class)>
+__isctype
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/usr/include/ctype.h
+isdigit
+scanMangledField
+copySwiftV1DemangledName
+demangledName
+__arclite_class_getName
+patch_t<Protocol *(const char *)>
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+patch_t<Class (const char *)>
+copySwiftV1MangledName
+__arclite_objc_getClass
+patch_t<void *(id)>
+word_align
+__arclite_object_getIndexedIvars
+patch_t<Class (Class, const char *, unsigned long)>
+allocateMaybeSwift
+isSwift
+metaclass
+__arclite_objc_allocateClassPair
+patch_t<Class (Class, const objc_image_info *)>
+initialize_imp
+property_list_nth
+transcribeProperties
+transcribeProtocols
+method_list_nth
+transcribeMethods
+alignment
+max
+ivar_list_nth
+transcribeIvars
+fastFlags
+ro
+__arclite_objc_readClassPair
+add_image_hook_swiftV1
+install_swiftV1
+patch_t<void (id *, id)>
+__arclite_objc_storeStrong
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+patch_t<void (id)>
+__arclite_objc_release
+__arclite_objc_retainBlock
+patch_t<id (id)>
+__arclite_objc_retain
+patch_t<id (id, unsigned long)>
+fixupCopiedReferences
+classOrSuperClassesUseARR
+__arclite_object_copy
+patch_t<void (id, objc_ivar *, id)>
+isScannedOffset
+alignedInstanceStart
+_class_getInstanceStart
+data
+__arclite_class_usesAutomaticRetainRelease
+_ivar_getClass
+__arclite_object_setIvar
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+install_ARC
+objc_collectingEnabled
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/usr/include/objc/objc-auto.h
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+addOrReplaceMethod
+install_dict_nil_value
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+keyedGetter
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+indexedGetter
+__arclite_NSArray_objectAtIndexedSubscript
+addMethod
+install_subscripting
+patch_lazy_pointers
+patch_t<void (void *)>
+__arclite_objc_autoreleasePoolPop
+patch_t<void *()>
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+install_autoreleasepool
+__ARCLite__load
