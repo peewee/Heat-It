@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X17-Zm-V5u">
-                                <rect key="frame" x="276" y="284" width="51" height="31"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X17-Zm-V5u">
+                                <rect key="frame" x="276" y="283" width="51" height="31"/>
                                 <color key="onTintColor" red="1" green="0.0" blue="0.4702892642" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="thumbTintColor" red="0.71556637219999997" green="0.71556637219999997" blue="0.71556637219999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>

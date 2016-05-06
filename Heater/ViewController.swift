@@ -210,10 +210,28 @@ class ViewController: UIViewController, SparkSetupMainControllerDelegate {
     
     @IBAction func XAction(sender: AnyObject) {
         
-        self.getState()
-        
-        self.MessageOutlet.text = "press on"
+        print("XAction ")
+        //getState()
+        self.MessageOutlet.text = "X"
         // self.SparkLogin()
+        
+        
+        let functionName = "heatIt"
+        dispatch_async(dispatch_get_global_queue(priority, 0)) {
+            
+            self.myPhoton!.callFunction(functionName, withArguments: [""]) {
+                (resultCode : NSNumber?, error : NSError?) -> Void in
+                
+                if (error == nil) {
+                    print("XAction call function ")
+                    // print("SwitchAction call function " + functionName + " on device " + self.deviceName + " result: ", resultCode! )
+                } else {
+                    print("Failed to call function " + functionName  + " error : " + error!.localizedDescription)
+                }
+            }
+        }
+        
+        
     }
 
     
